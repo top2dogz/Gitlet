@@ -1,0 +1,8 @@
+I add-setup.inc
++ a.txt notfriendly.txt
+> add
+<<<
+> commit "staging edge"
+<<<
+> checkout -- a.txt
+= a.txt notfriendly.txt

@@ -1,0 +1,12 @@
+I commit-setup.inc
++ b.txt notfriendly.txt
+> add b.txt
+<<<
+> commit "this one isn't friendly"
+<<<
++ c.txt breakingbad.txt
+> add c.txt
+<<<
+> commit "i'm the one who knocks"
+<<<
+> find "this one isn't friendly"

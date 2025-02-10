@@ -1,0 +1,4 @@
+I commit-setup.inc
+> branch "meow"
+<<<
+E .gitlet/.refs/meow
