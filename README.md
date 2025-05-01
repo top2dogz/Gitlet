@@ -14,20 +14,6 @@ add
     Description: Adds a copy of the file as it currently exists to the staging area (see the description of the commit command). For this reason, adding a file is also called staging the file for addition. Staging an already-staged file overwrites the previous entry in the staging area with the new contents. The staging area should be somewhere in .gitlet. If the current working version of the file is identical to the version in the current commit, do not stage it to be added, and remove it from the staging area if it is already there (as can happen when a file is changed, added, and then changed back to it’s original version). The file will no longer be staged for removal (see gitlet rm), if it was at the time of the command.
 
 
-, for N
-
-    the number of files in the commit.
-
-    Failure cases: If the file does not exist, print the error message File does not exist. and exit without changing anything.
-
-    Dangerous?: No
-
-    Our line count: ~20
-
-    Differences from real git: In real git, multiple files may be added at once. In gitlet, only one file may be added at a time.
-
-    Suggested Lecture(s): Lecture 16 (Sets, Maps, ADTs), Lecture 19 (Hashing)
-
 commit
 
     Usage: java gitlet.Main commit [message]
